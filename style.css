@@ -1,0 +1,79 @@
+body {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+      }
+      
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      #newgame{
+        background-color:blanchedalmond;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        cursor:pointer;
+        position: absolute;
+        left: 625px;
+        top: 600px;
+        
+      
+      }
+      
+      #newgame:hover{
+        background-color:deeppink;
+        
+      }
+      
+      #container {
+      width: 320px ;
+      height: 320px ;
+      margin: auto  ;
+      }
+      
+      #container h1 {
+        text-align: center;      
+        font-family: 'Mr Dafoe';
+        margin: 0;
+        font-size: 5.5em;
+        margin-top: 0.6em;
+        color: white;
+        text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+        transform: rotate(-7deg);
+      
+      }
+      
+      .l {
+        width: 100px ;
+        height: 100px ;
+        float: left ;
+        margin: 0 ;
+        padding: 0 ;
+        cursor: pointer ;
+        text-align: center ;
+        font-family: sans-serif ;
+        font-size: 100px ;
+      
+      }
+      
+      
+      #l0, #l1, #l2, #l3 , #l4, #l5 {
+        border-bottom: 10px solid black;
+ 
+      }
+        
+      #l2, #l5, #l8, #l1, #l4, #l7 {
+        border-left: 10px solid black;
+      }
+      
